@@ -1,0 +1,49 @@
+{
+  "name": "hicotech",
+  "version": "1.0.0",
+  "description": "Projet react #Hicotech #REACT #NodeJs #MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server",
+    "server": "nodemon server --ignore client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "lint": "eslint --ignore-path .gitignore .",
+    "check-format": "prettier --ignore-path .gitignore --list-different \"**/*.+(js|json)\"",
+    "format": "prettier --write  --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "validate": "npm run check-format & npm run lint"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@infinitetoolbox/bmi-calculator": "^0.2.14",
+    "bcryptjs": "^2.4.3",
+    "bmi-calc": "^2.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "husky": "^4.3.8",
+    "jsonwebtoken": "^8.5.1",
+    "jsrender": "^1.0.11",
+    "moment": "^2.29.3",
+    "mongodb-memory-server": "^8.5.2",
+    "mongoose": "^6.2.1",
+    "node-cron": "^3.0.0",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.20",
+    "swagger-ui-express": "^4.3.0",
+    "validator": "^13.7.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  }
+}

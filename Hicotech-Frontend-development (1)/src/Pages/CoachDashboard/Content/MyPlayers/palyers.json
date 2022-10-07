@@ -1,0 +1,17 @@
+{
+  "Players": [
+    {
+      "firstName": "sico ",
+      "lastName": "FW",
+      "email": "user@gmail.com",
+      "city": "tunis"
+    },
+    {
+        "firstName": "leon ",
+        "lastName": "mega",
+        "email": "leon@gmail.com",
+        "city": "tunis"
+      }
+    
+  ]
+}

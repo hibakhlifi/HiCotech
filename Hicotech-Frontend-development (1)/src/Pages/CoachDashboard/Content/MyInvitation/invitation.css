@@ -1,0 +1,30 @@
+.invitation{
+    position: relative;
+  }
+  .invitation-form {
+    max-width: 350px;
+    min-width: 450px;
+    padding-top: 20px!important;
+    padding: 20px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 3px 15px 0 rgb(0 0 0 / 19%);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    }
+    .invitation-form-forgot {
+      float: right;
+    }
+    .ant-col-rtl .invitation-form-forgot {
+      float: left;
+    }
+    .invitation-form-button {
+      width: 40%;
+      margin: 2% ;
+    }
+  .invitation-text{
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+  }

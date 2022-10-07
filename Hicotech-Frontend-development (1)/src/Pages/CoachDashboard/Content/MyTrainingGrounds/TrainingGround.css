@@ -1,0 +1,15 @@
+.addTrainingGround{
+margin-bottom: 20px;
+}
+.redHoverColor:hover{
+    color:red;
+  border-color: red;
+}
+.greenHoverColor:hover{
+    color:green;
+  border-color: green;
+}
+.ant-card-actions li {
+  margin:0px
+
+}

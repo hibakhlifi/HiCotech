@@ -1,0 +1,7 @@
+.site-statistic-demo-card {
+  padding: 30px;
+  background: rgb(240, 242, 245);
+}
+tr:last-child td {
+  padding-bottom: 0;
+}
